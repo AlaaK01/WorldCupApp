@@ -1,0 +1,110 @@
+
+#header-background, #footer-background{
+    background-image: url('./images/pattern.png');
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#header{
+  background: #811538;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 82%);
+    height:18rem;
+    border: solid 5px #490d1f;
+    border-bottom: solid 25px #490d1f;
+    
+}
+#footer{
+  background: #811538;
+    clip-path: polygon(0 24%, 100% 0%, 100% 100%, 0% 100%);
+    height:18rem;
+    border: solid 5px #490d1f;
+    border-top: solid 25px #490d1f;
+}
+#logo-header{
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    top: 60px;
+}
+#logo-img{
+    height: 300px;
+    -webkit-filter: drop-shadow(5px 5px 10px #222);
+        filter: drop-shadow(5px 5px 10px #222);
+}
+
+.title{
+    color:azure;
+    position: absolute;
+    left: 440px;
+    top:110px;
+ 
+  font-size: 40px;
+}
+.title .text-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .title .letter {
+    display: inline-block;
+    line-height: 2rem;
+    font-family: 'Faster One', cursive;
+font-family: 'Frijole', cursive;
+  }
+  
+  .qatar{
+    width: 300px;
+    position:relative;
+    left: 34vw;
+    
+  }
+  #main{
+    width: 100vw;
+    height: 150vh;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
+    position:relative;
+  }
+  
+  .stars.one, .two, .three, .four, .five{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 150%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position:absolute;
+    top: 5rem;
+    position:fixed;
+    z-index: -1;
+    
+  }
+  .two{
+    position:absolute;
+    top: 11rem;
+    position:fixed;
+  }
+  .three{
+    position:absolute;
+    top: 17rem;
+    position:fixed;
+  }
+  .four{
+    position:absolute;
+    top: 23rem;
+    position:fixed;
+  }
+  .five{
+    position:absolute;
+    top: 29rem;
+    position:fixed;
+  }
+  .container-title{
+    direction: rtl;
+  }
+  .col-sm-6{
+   float:right
+  }
+  
